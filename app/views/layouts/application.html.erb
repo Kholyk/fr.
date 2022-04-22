@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  <%= javascript_importmap_tags %>
+  <%#= javascript_include_tag "application", "data-turbolinks-track" => "reload" %>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>COLOR21</title>
+
+</head>
+<body>
+<!--PreLoader-->
+<div class="loader">
+  <div class="loader-inner">
+    <div class="cssload-loader"></div>
+  </div>
+</div>
+<!--PreLoader Ends-->
+  <%= yield %>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="/template/js/jquery-3.6.0.min.js"></script>
+<!--Bootstrap Core-->
+<script src="/template/js/propper.min.js"></script>
+<script src="/template/js/bootstrap.min.js"></script>
+<!--to view items on reach-->
+<script src="/template/js/jquery.appear.js"></script>
+<!--Owl Slider-->
+<script src="/template/js/owl.carousel.min.js"></script>
+<!--number counters-->
+<script src="/template/js/jquery-countTo.js"></script>
+<!--Parallax Background-->
+<script src="/template/js/parallaxie.js"></script>
+<!--Cubefolio Gallery-->
+<script src="/template/js/jquery.cubeportfolio.min.js"></script>
+<!--Fancybox js-->
+<script src="/template/js/jquery.fancybox.min.js"></script>
+<!--tooltip js-->
+<script src="/template/js/tooltipster.min.js"></script>
+<!--wow js-->
+<script src="/template/js/wow.js"></script>
+<!--Revolution SLider-->
+<script src="/template/js/revolution/jquery.themepunch.tools.min.js"></script>
+<script src="/template/js/revolution/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+<script src="/template/js/revolution/extensions/revolution.extension.actions.min.js"></script>
+<script src="/template/js/revolution/extensions/revolution.extension.carousel.min.js"></script>
+<script src="/template/js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="/template/js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="/template/js/revolution/extensions/revolution.extension.migration.min.js"></script>
+<script src="/template/js/revolution/extensions/revolution.extension.navigation.min.js"></script>
+<script src="/template/js/revolution/extensions/revolution.extension.parallax.min.js"></script>
+<script src="/template/js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="/template/js/revolution/extensions/revolution.extension.video.min.js"></script>
+<!--custom functions and script-->
+<script src="/template/js/functions.js"></script>
+</body>
+</html>
